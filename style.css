@@ -1,0 +1,97 @@
+body {
+    font-family: sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: #5a0e0e; /* Warna coklat tua / merah marun */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.input-section, .result-section {
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fdfdfd;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="date"] {
+    width: calc(100% - 12px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    background-color: #8b4513; /* Coklat */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #a0522d; /* Coklat lebih terang */
+}
+
+.result-section h2 {
+    margin-top: 0;
+    border-bottom: 2px solid #8b4513;
+    padding-bottom: 10px;
+}
+
+#hasilPembagian div, #kesimpulan div {
+    margin-bottom: 15px;
+    padding: 10px;
+    border-left: 4px solid #8b4513;
+    background-color: #f9f9f9;
+}
+
+#hasilPembagian strong, #kesimpulan strong {
+    color: #5a0e0e;
+}
+
+.error-message {
+    color: #d9534f; /* Merah */
+    background-color: #f2dede;
+    border: 1px solid #ebccd1;
+    padding: 15px;
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Tambahkan sedikit ruang antar bagian hasil */
+#dataPasangan, #neptuGabungan, #hasilPembagian, #kesimpulan {
+    margin-top: 20px;
+}

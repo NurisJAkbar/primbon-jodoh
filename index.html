@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primbon Jodoh Weton Jawa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Primbon Jodoh Berdasarkan Weton Jawa</h1>
+
+        <div class="input-section">
+            <h2>Masukkan Tanggal Lahir Pasangan</h2>
+            <div class="form-group">
+                <label for="tanggalLaki">Tanggal Lahir Laki-laki:</label>
+                <input type="date" id="tanggalLaki" required>
+            </div>
+            <div class="form-group">
+                <label for="tanggalPerempuan">Tanggal Lahir Perempuan:</label>
+                <input type="date" id="tanggalPerempuan" required>
+            </div>
+            <button id="hitungButton">Hitung Kecocokan</button>
+        </div>
+
+        <div id="hasil" class="result-section" style="display: none;">
+            <h2>Hasil Perhitungan Perjodohan</h2>
+            <div id="dataPasangan"></div>
+            <div id="neptuGabungan"></div>
+            <div id="hasilPembagian"></div>
+            <div id="kesimpulan"></div>
+        </div>
+
+        <div id="error" class="error-message" style="display: none;"></div>
+    </div>
+
+    <script src="js/config.js"></script>
+    <script src="js/kalender.js"></script>
+    <script src="js/primbon.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
